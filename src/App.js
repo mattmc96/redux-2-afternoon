@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Component } from 'react';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import axios from 'axios';
@@ -6,7 +8,6 @@ import Budget from './components/Budget/Budget';
 import './App.css';
 
 class App extends Component {
-
   render() {
     return (
       <HashRouter>
